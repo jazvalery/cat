@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+:root{
+    --main-bg-color:brown;
+}
+
+body{
+    background: url(../Imagenes/LUNA.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.item1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.rectangulo2{
+    width: 180px;
+    height: 90px;
+    background-color: var(--main-bg-color);
+    margin-left: 80px;
+    margin-top: 10px;
+    border-bottom-right-radius: 70px;
+}
+
+.rectangulo3{
+    width: 180px;
+    height: 90px;
+    background-color: var(--main-bg-color);
+    margin-left: 80px;
+    margin-top: 10px;
+    border-bottom-left-radius: 90px;
+}
+.rectangulomo{
+    width: 180px;
+    height: 90px;
+    background-color: blue;
+    margin-left: 80px;
+    margin-top: 10px;
+    border-top-left-radius: 45px;
+
+}
+
+.item2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content:space-between ;
+    align-items: baseline;
+}
+
+.rectangulo4{
+    width: 180px;
+    height: 90px;
+    background-color: blue;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 30px;
+    border-top-right-radius:80px ;
+    border-bottom-right-radius:30px ;
+}
+
+.rectangulo5{
+    width: 180px;
+    height: 90px;
+    background-color:var(--main-bg-color);
+    margin-left: 80px;
+    border-radius: 18%;
+}
+
+.rectangulo6{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    margin-left: 80px;   
+    border-radius: 50%;
+   
+}
+
+h1{
+    font-size: 60px;
+    position: relative;
+    left: 50px;
+}
